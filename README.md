@@ -190,3 +190,26 @@ Response:
 }
 ```
 
+## Challenges Faced & Improvements
+
+Challenges:
+
+- Ensuring data consistency and enforcing constraints like unique Book ID.
+
+- Handling errors effectively, such as invalid inputs or missing records.
+
+- Implementing search functionality efficiently to handle large datasets.
+
+- Managing dependencies and configurations in application.properties.
+
+Improvements:
+
+- Implement robust validation and error handling for API responses.
+
+- Enhance search capabilities by allowing partial title searches.
+
+- Implement role-based authentication for better security.
+
+- Optimize database queries to improve performance.
+
+- Add frontend support to provide a user-friendly interface.
