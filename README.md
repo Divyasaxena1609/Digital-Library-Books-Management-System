@@ -101,7 +101,7 @@ Digital-Library-Books-Management-System/
 - Endpoint: GET /books/all
 
 Response:
-```
+```json
 [
   {
     "id": 1,
@@ -119,7 +119,7 @@ Response:
 - Endpoint: GET /books/search/id/{bookId}
 
 Response:
-```
+```json
 {
   "id": 1,
   "bookId" : "B101",
@@ -134,7 +134,7 @@ Response:
 - Endpoint: POST /books/add
 
 Request:
-```
+```json
 {
   "bookId" : "B102",
   "title": "Java Basics",
@@ -144,7 +144,7 @@ Request:
 }
 ```
 Response:
-```
+```json
 {
   "id": 2,
   "bookId" : "B102",
@@ -159,7 +159,7 @@ Response:
 - Endpoint: PUT /books/update/{bookId}
 
 Request:
-```
+```json
 {
   "bookId" : "B101",
   "title": "Java Advanced",
@@ -169,7 +169,7 @@ Request:
 }
 ```
 Response:
-```
+```json
 {
   "id": 2,
   "bookId" : "B102",
@@ -184,7 +184,7 @@ Response:
 - Endpoint: DELETE /books/{id}
 
 Response:
-```
+```json
 {
   "message": "Book deleted successfully"
 }
